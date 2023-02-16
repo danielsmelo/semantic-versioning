@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [[ $# -ne 1 ]]; then
-  echo "Uso: $0 [-M | -m | -p]"
+  echo "usage: $0 [-M | -m | -p]"
   exit 1
 fi
 
