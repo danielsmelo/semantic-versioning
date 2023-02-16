@@ -10,7 +10,7 @@ case "$1" in
     sed -i "s/.$/${1/-/}/" VERSION
     ;;
   *)
-    echo "Parâmetro inválido: $1"
+    echo "error: invalid version format: $1"
     exit 1
     ;;
 esac
