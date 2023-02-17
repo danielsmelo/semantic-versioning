@@ -8,7 +8,7 @@ O segundo script, semver.sh, incrementa uma string de versão usando a terminolo
 
 # Exemplo de uso
 
-1 - Execute o comando para aticar o hook (precisa ser executado apenas uma vez por instalação do projeto): `make init-hooks`
+1 - Execute o comando para ativar o hook (precisa ser executado apenas uma vez por instalação do projeto): `make init-hooks`
 
 2 - Defina o operador da versão (o padrão é "p" caso não seja informado): `make version op=M`
 
